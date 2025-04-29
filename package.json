@@ -1,0 +1,19 @@
+{
+  "name": "3d-pose-skeleton",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.11",
+    "@react-three/fiber": "^8.13.7",
+    "@tensorflow-models/pose-detection": "^3.0.0",
+    "@tensorflow/tfjs": "^4.14.0",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.156.1"
+  }
+}
