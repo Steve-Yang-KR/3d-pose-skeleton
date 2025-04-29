@@ -2,7 +2,7 @@ import { Canvas } from '@react-three/fiber';
 import { useRef, useEffect, useState } from 'react';
 import * as tf from '@tensorflow/tfjs';
 import * as posedetection from '@tensorflow-models/pose-detection';
-import { Line } from '@react-three/drei';
+import { Line } from '@react-three/drei'; 
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
